@@ -1,0 +1,171 @@
+@-moz-document url-prefix("https://mail.google.com/"), url-prefix("https://chat.google.com") {
+    #\:13e {
+        font-size: 16px;
+    }
+
+    /* read, unread emails, attachments */
+    .zA.yO,
+    .aio,
+    div.aLF-aPX-aPF-aPE {
+        filter: blur(5.0px);
+    }
+
+    .zA.zE {
+        filter: blur(5.0px) hue-rotate(180deg);
+    }
+
+    /* mail content and mail attachments*/
+    div.a3s.aiL,
+    div.iA.g6,
+    div.aQH {
+        opacity: 0.15;
+        filter: blur(5px);
+    }
+
+    .zA.yO.aqw:hover,
+    .zA.zE.aqw:hover,
+    .aio:hover {
+        filter: unset;
+    }
+
+    img.aLF-aPX-J1-J3 {
+        filter: blur(30px);
+    }
+
+    div.nH:hover div.a3s.aiL,
+    div.nH:hover div.iA.g6,
+    div.nH:hover div.aQH,
+    div.aLF-aPX-aPk-aMh.aLF-aPX-Jq-aPn:hover div.aLF-aPX-aPF-aPE,
+    div.aLF-aPX-aPk-aMh.aLF-aPX-Jq-aPn:hover img.aLF-aPX-J1-J3 {
+        opacity: unset;
+        filter: unset;
+    }
+
+    .zA.yO.aqw:hover,
+    .zA.zE.aqw:hover {
+        filter: unset;
+    }
+
+    div.cnOaDb.I9OJHe,
+    div.Zc1Emd.QIJiHb,
+    div.JNXdtb {
+        opacity: 0.15;
+    }
+
+    div.cnOaDb.I9OJHe:hover,
+    div.jO3HBb:hover div.Zc1Emd.QIJiHb,
+    div.jO3HBb:hover div.JNXdtb {
+        opacity: unset;
+    }
+
+
+    span.IL9EXe.PL5Wwe.dHI9xe.rcdhB.WD3P7,
+    span.njhDLd,
+    div.fh7VDd {
+        filter: blur(5px);
+    }
+
+    img.RY5A9.yLI4wc.KuG0bc.WZZyYd {
+        filter: blur(20px);
+    }
+
+    span.IL9EXe.PL5Wwe.dHI9xe.rcdhB.WD3P7 span.njhDLd {
+        filter: unset
+    }
+
+    span.t5F5nf.NXfF8b.ojqkvd span.njhDLd {
+        filter: unset
+    }
+
+    div.kjWKTd.RsRwdf span.njhDLd {
+        filter: unset
+    }
+
+    span.IL9EXe.PL5Wwe.dHI9xe.rcdhB.WD3P7:hover,
+    span.njhDLd:hover,
+    div.fh7VDd:hover {
+        filter: unset;
+    }
+
+    img.RY5A9.yLI4wc.KuG0bc.WZZyYd:hover {
+        filter: unset;
+        transition: all 300ms linear;
+    }
+}
+
+@-moz-document url-prefix("https://docs.google.com") {
+
+    /* docs */
+    svg,
+    div.kix-page-paginated,
+    .kix-rotatingtilemanager-content,
+    .grid-container,
+    .docos-anchoreddocoview-content.docos-docoview-replycontainer {
+        filter: blur(5px)
+    }
+
+    svg:hover,
+    div.kix-page-paginated:hover,
+    .kix-rotatingtilemanager-content:hover,
+    .grid-container:hover,
+    .docos-anchoreddocoview-content.docos-docoview-replycontainer:hover,
+    .docos-docoview-active .docos-anchoreddocoview-content.docos-docoview-replycontainer {
+        filter: unset;
+    }
+}
+
+@-moz-document url-prefix("https://calendar.google.com/") {
+
+    /* calendar */
+    /*.GTG3wb {*/
+    .fFwDnf,
+    .a7T5zb.elYzab-cXXICe-Hjleke.NlL62b.QwxBBf {
+        /* calendar blocks */
+        filter: blur(5px) contrast(50%) invert(100%) hue-rotate(180deg) saturate(50%) opacity(25%);
+    }
+
+    /*.GTG3wb:hover*/
+    .GTG3wb:hover .fFwDnf,
+    .a7T5zb.elYzab-cXXICe-Hjleke.NlL62b.QwxBBf.jKgTF {
+        filter: unset;
+    }
+
+
+    div.KF4T6b {
+        /* all day events */
+        filter: blur(5px) contrast(50%) invert(100%) hue-rotate(180deg) saturate(50%) opacity(25%);
+    }
+
+    div.KF4T6b:hover {
+        filter: unset;
+    }
+
+    /*
+div.lhydbb {
+    /* calendar block text
+    filter: blur(3px);
+}
+
+div.lhydbb:hover {
+    filter: unset;
+}
+*/
+    div.qZvm2d-ibnC6b-bN97Pc {
+        /* calendar names */
+        filter: blur(3px);
+    }
+
+    div.qZvm2d-ibnC6b-bN97Pc:hover {
+        filter: unset;
+    }
+}
+
+@-moz-document url-prefix("https://drive.google.com/") {
+    .tyTrke.M3pype {
+        filter: blur(5px);
+    }
+
+    .tyTrke.M3pype:hover {
+        filter: unset;
+    }
+}

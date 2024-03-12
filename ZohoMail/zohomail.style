@@ -1,0 +1,9 @@
+@-moz-document domain("mail.zoho.com"), domain("mail.zoho.eu") {
+    .zmList {
+        filter: blur(3.0px);
+    }
+
+    .zmList:hover {
+        filter: unset;
+    }
+}

@@ -1,0 +1,14 @@
+@-moz-document domain("reclaim.ai") {
+
+    .ScheduleEventView_root__IQiV1,
+    div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0,
+    .GenericListItem_root--draggable__k_Fib {
+        filter: blur(5px) contrast(50%) invert(100%) hue-rotate(180deg) saturate(50%) opacity(25%);
+    }
+
+    .ScheduleEventView_root__IQiV1:hover,
+    div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0>div.MuiBox-root.reclaim-css-0:hover,
+    .GenericListItem_root--draggable__k_Fib:hover {
+        filter: unset;
+    }
+}

@@ -1,0 +1,9 @@
+@-moz-document domain("deepl.com") {
+    div.lmt__inner_textarea_container {
+        filter: blur(3px);
+    }
+
+    div.lmt__sides_container:hover div.lmt__inner_textarea_container {
+        filter: unset;
+    }
+}

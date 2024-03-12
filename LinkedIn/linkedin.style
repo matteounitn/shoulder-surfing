@@ -1,0 +1,12 @@
+@-moz-document domain("linkedin.com") {
+
+    .msg-overlay-list-bubble__convo-card-content-wrapper.fl,
+    .msg-convo-wrapper.msg-overlay-conversation-bubble.msg-overlay-conversation-bubble--default-inactive.ml4.msg-overlay-conversation-bubble--is-active.msg-overlay-conversation-bubble--petite span.t-14.t-bold.hoverable-link-text.t-black {
+        filter: blur(3px);
+    }
+
+    .msg-overlay-list-bubble__convo-card-content-wrapper.fl:hover,
+    .msg-convo-wrapper.msg-overlay-conversation-bubble.msg-overlay-conversation-bubble--default-inactive.ml4.msg-overlay-conversation-bubble--is-active.msg-overlay-conversation-bubble--petite:hover span.t-14.t-bold.hoverable-link-text.t-black {
+        filter: unset;
+    }
+}
