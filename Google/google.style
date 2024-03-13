@@ -93,7 +93,7 @@
     }
 }
 
-@-moz-document url-prefix("https://docs.google.com/document") {
+@-moz-document url-prefix("https://docs.google.com/document"), url-prefix("https://docs.google.com/spreadsheet") {
 
     /* docs */
     svg,
