@@ -1,0 +1,39 @@
+@-moz-document url-prefix("https://web.whatsapp.com/") {
+    /*Chat name*/
+    ._8nE1Y,
+    ._2au8k {
+        filter: blur(0.5em);
+        transition: all 50ms ease;
+    }
+    ._8nE1Y:hover,
+    ._2au8k:hover {
+        filter: unset;
+        transition: all 250ms ease;
+    }
+
+    /*Chat_meassage bubble*/
+    .UzMP7 {
+        --opacity: 10%;
+        --scale: 0;
+        filter: blur(0.15em);
+        transition: all 250ms ease;
+    }
+    .UzMP7:hover {
+        --opacity: 100%;
+        --scale: 1;
+        filter: unset;
+    }
+
+    /*Chat meassage content*/
+    .UzMP7 span {
+        opacity: var(--opacity);
+        transition: all 250ms ease;
+    }
+
+    /*Chat media content*/
+    .UzMP7 video,
+    .UzMP7 img {
+        transform: scale(var(--scale));
+        transition: all 400ms ease;
+    }
+}
