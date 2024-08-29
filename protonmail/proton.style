@@ -1,0 +1,19 @@
+@-moz-document domain("mail.proton.me") {
+.item-container-wrapper.relative {
+        filter: blur(3.0px);
+    }
+.message-content.relative,.message-conversation-summary-header {
+        filter: blur(3.0px);
+    }
+
+
+.scroll-outer-vertical:hover .message-content.relative,.scroll-outer-vertical:hover .message-conversation-summary-header{
+        filter: unset;
+    }
+
+.item-container-wrapper.relative:hover {
+        filter: unset;
+    }
+
+
+}
